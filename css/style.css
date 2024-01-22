@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+	#wrap { position:relative; width:100%; }
+
+	.this_page_ttl { background:#363636; color:#fff; font-family:"NTSansB"; font-size:32px; height:70px; line-height:70px; padding:0 20px; }
+
+	.added_stat_wrap { background:#ecf0f3; padding:35px 20px 20px; }
+
+	.this_page_subttl { border-bottom:1px solid #ddd; margin-bottom:20px; height:45px; position:relative; }
+	.this_page_subttl > * { line-height:1; position:absolute; top:0; }
+	.this_page_subttl strong { color:#363636; font-size:24px; left:0; }
+	.this_page_subttl p { font-size:0; right:0; text-align:right; }
+	.this_page_subttl p span { color:#363636; font-size:14px; margin-left:7px; }
+
+	.added_srch_wrap { background:#fff; border-radius:15px; box-shadow:2px 0 7px rgba(0, 0, 0, .14); font-size:0; padding:20px 30px; text-align:right; }
+	.added_srch_wrap:after { clear:both; content:""; display:block; }
+	.added_srch_wrap select { -webkit-appearance:none; appearance:none; background:url("../img/sel_arrow.png") right 5px center no-repeat; border:1px solid #d9dce5; border-radius:5px; color:#797e92; float:left; font-family:"NTSansL"; font-size:16px; height:40px; margin-right:5px; padding:0 37px 0 17px; text-align:left; width:150px; }
+	.added_srch_wrap select.org_sel { width:274px; }
+	.added_srch_wrap select.added_num_sel { display:inline-block; float:none; margin-left:10px; width:150px; }
+	.added_srch_wrap a { background:#363636; border-radius:5px; color:#fff; float:right; font-family:"NTSansL"; font-size:16px; height:40px; line-height:40px; position:relative; text-align:center; width:110px; }
+	.added_srch_wrap a:before { background:url("../img/btn_srch.png") no-repeat; content:""; display:inline-block; height:14px; margin:1px 6px 0 0; width:14px; }
+	.added_srch_wrap a.no_float { display:inline-block; float:none; }
+
+	.added_tbl_wrap { background:#fff; border-radius:15px; box-shadow:2px 0 7px rgba(0, 0, 0, .14); margin-top:20px; padding:40px 30px; }
+
+	.added_tbl_each { margin-top:36px; }
+	.added_tbl_each:first-child { margin-top:0; }
+	.added_tbl_each > strong { color:#363636; display:block; font-family:"NTSansM"; font-size:20px; margin-bottom:20px; text-align:left; }
+	.added_tbl_each table { border-left:1px solid #e1e1e9; border-top:1px solid #e1e1e9; table-layout:fixed; width:100%; }
+	.added_tbl_each table th,
+	.added_tbl_each table td { border-bottom:1px solid #e1e1e9; border-right:1px solid #e1e1e9; position:relative; text-align:center; vertical-align:middle; word-break:break-all; }
+
+	.added_tbl_each table th { color:#434343; font-family:"NTSansM"; font-size:14px; }
+	.added_tbl_each table td { background:#fff; color:#434343; font-family:"NTSansL"; font-size:15px; height:53px; }
+	.added_tbl_each table td.ttl { color:#777; font-family:"NTSansL"; font-size:10px; height:21px; }
+
+	.added_tbl_each table thead th { background:#f5f6f8; height:53px; }
+	.added_tbl_each table thead th.divide { background:url("../img/th_line.png") center / 100% 100% no-repeat #f5f6f8; }
+	.added_tbl_each table thead th.divide.long { background:url("../img/th_line_l.png") center / 100% 100% no-repeat #f5f6f8; }
+	.added_tbl_each table thead th span { color:#777; font-family:"NTSansL"; font-size:10px; position:absolute; }
+	.added_tbl_each table thead th span.left { bottom:10px; left:10px; }
+	.added_tbl_each table thead th span.right { right:10px; top:10px; }
+	.added_tbl_each table thead th.divide.long span.left { bottom:30px; left:17.67%; }
+	.added_tbl_each table thead th.divide.long span.right { right:17.67%; top:30px; }
+	.added_tbl_each table tbody th { background:#fff; }
+
+	.added_tbl_each table .bbg,
+	.added_tbl_each table .bbg th { background:#f2f6ff; }
+	.added_tbl_each table .gbg,
+	.added_tbl_each table .gbg th { background:#f5f6f8; }
+	.added_tbl_each table .gbg_dark,
+	.added_tbl_each table .gbg_dark th { background:#eef0f4; }
+	.added_tbl_each table .ybg,
+	.added_tbl_each table .ybg th { background:#fffdf2; }
+	.added_tbl_each table .wbg,
+	.added_tbl_each table .wbg th { background:#fff; }
+
+	.added_tbl_each table td input { background:#fff; border:1px solid #babac1; height:30px; text-align:center; width:80%; }
+
+	.added_func_btn { font-size:0; height:42px; margin-top:40px; position:relative; text-align:center; }
+	.added_func_btn a { background:#fff; border:1px solid #4384d4; border-radius:5px; box-shadow:2px 0 7px rgba(0, 0, 0, .17); color:#4384d4; display:inline-block; font-family:"NTSansL"; font-size:17px; height:42px; line-height:40px; margin:0 2px; text-align:center; vertical-align:top; width:120px; }
+	.added_func_btn a.blue { background:#4384d4; color:#fff; }
+	.added_func_btn a.excel,
+	.added_func_btn a.write { margin:0; position:absolute; right:0; top:0; }
+	.added_func_btn a.write img { margin:13px 16px 0 0; }
+
+	.added_srch_input { background:#fff; border:1px solid #d9dce5; border-radius:5px; color:#434343; display:inline-block; font-family:"NTSansL"; font-size:16px; height:40px; margin-right:5px; padding:0 15px; text-align:left; width:400px; }
+	.added_srch_input::placeholder { color:#797e92; }
+
+	.added_tbl_top { margin-bottom:20px; }
+	.added_tbl_top:after { clear:both; content:""; display:block; }
+	.added_tbl_top p.case { color:#777; float:left; font-family:"NTSansL"; font-size:20px; }
+	.added_tbl_top p.case strong { color:#363636; font-family:"NTSansM"; }
+	.added_tbl_top p.page { color:#777; float:right; font-family:"NTSansL"; font-size:15px; }
+	.added_tbl_top p.page strong { color:#434343; font-family:"NTSansM"; }
+	.added_tbl_top p.page span { color:#777; }
+
+	.added_stand_tbl table { border-left:1px solid #e1e1e9; border-top:1px solid #e1e1e9; table-layout:fixed; width:100%; }
+	.added_stand_tbl table th,
+	.added_stand_tbl table td { border-bottom:1px solid #e1e1e9; border-right:1px solid #e1e1e9; height:53px; text-align:center; vertical-align:middle; }
+	.added_stand_tbl table th { background:#f5f6f8; color:#434343; font-family:"NTSansM"; font-size:15px; }
+	.added_stand_tbl table td { background:#fff; color:#777; font-family:"NTSansL"; font-size:15px; }
+	.added_stand_tbl table td:nth-child(2) { color:#434343; font-family:"NTSansM"; padding:10px 50px; text-align:left; }
+
+	.added_stand_tbl table td a.btn_attach_file { background:url("../img/icon_attach.png") no-repeat; display:inline-block; height:29px; overflow:hidden; text-indent:-20000px; width:29px; }
+	.added_stand_tbl table td a.btn_detail { background:url("../img/btn_detail.png") no-repeat; display:inline-block; height:24px; overflow:hidden; text-indent:-20000px; width:54px; }
+
+	.note_input_wrap { border:1px solid #e1e1e9; height:54px; margin-top:40px; }
+	.note_input_wrap:after { clear:both; content:""; display:block; }
+	.note_input_wrap dt,
+	.note_input_wrap dd { float:left; height:52px; text-align:center; }
+	.note_input_wrap dt { background:#f5f6f8; border-right:1px solid #e1e1e9; color:#434343; font-family:"NTSansM"; font-size:14px; line-height:52px; width:8.7%; }
+	.note_input_wrap dd { padding:11px 8px; width:91.3%; }
+	.note_input_wrap dd input { background:#fff; border:1px solid #babac1; height:30px; padding:0 10px; text-align:left; width:100%; }
+
+	.layer_dimm { background:#000; display:none; height:100%; left:0; opacity:.7; position:fixed; top:0; width:100%; z-index:99; }
+	.layer_wrap { background:#fff; border-top-left-radius:15px; border-top-right-radius:15px; display:none; left:50%; margin-left:-417px; overflow:hidden; position:absolute; top:112px; width:834px; z-index:100; }
+	.layer_top { background:url("../img/layer_top.jpg") no-repeat; height:85px; position:relative; }
+	.layer_top strong { color:#363636; font-family:"NTSansB"; font-size:24px; height:85px; left:32px; line-height:85px; position:absolute; top:0; }
+	.layer_top a.layer_close { background:url("../img/btn_layer_close.png") no-repeat; display:block; height:54px; margin-top:-27px; overflow:hidden; position:absolute; right:30px; text-indent:-20000px; top:50%; width:54px; }
+	.layer_cont { padding:30px 30px 40px; }
+	.layer_cont table { border-left:1px solid #e1e1e9; border-top:1px solid #e1e1e9; font-size:14px; table-layout:fixed; width:100%; }
+	.layer_cont table th,
+	.layer_cont table td { border-bottom:1px solid #e1e1e9; border-right:1px solid #e1e1e9; height:53px; vertical-align:middle; }
+	.layer_cont table th { background:#f5f6f8; color:#434343; font-family:"NTSansM"; text-align:center; }
+	.layer_cont table th.must:after { color:#ff0000; content:"*"; font-family:"NTSansM"; font-size:14px; margin:0 0 0 4px; position:relative; top:3px; }
+	.layer_cont table td { background:#fff; padding:7px 6px; text-align:left; }
+	.layer_cont table td p { color:#777; font-family:"NTSansL"; padding:0 16px; }
+	.layer_cont table td p.attach_file { background:url("../img/icon_attach.png") 16px center no-repeat; line-height:29px; margin-bottom:10px; padding:0 16px 0 54px; }
+	.layer_cont table td p.attach_file:last-child { margin-bottom:0; }
+	.layer_cont table td p.attach_file a { background:url("../img/btn_download.jpg") no-repeat; display:inline-flex; height:26px; margin-left:10px; overflow:hidden; text-indent:-20000px; width:56px; }
+	.layer_cont table td p.detail_cont { height:270px; line-height:2; overflow-y:auto; padding:20px 16px; }
+	.layer_cont table td strong { color:#434343; font-family:"NTSansM"; padding:0 16px; }
+
+	.layer_btm_btns { font-size:0; margin-top:40px; text-align:center; }
+	.layer_btm_btns a { border:1px solid #4384d4; border-radius:6px; box-shadow:2px 0 7px rgba(0, 0, 0, .14); display:inline-block; font-family:"NTSansL"; font-size:16px; height:40px; line-height:38px; margin:0 2px; width:90px; }
+	.layer_btm_btns a.blue { background:#4384d4; color:#fff; }
+	.layer_btm_btns a.white { background:#fff; color:#4384d4; }
+
+	.noti_chk { height:30px; position:relative; width:30px; }
+	.noti_chk input[type="checkbox"] { height:0; left:0; opacity:0; position:absolute; top:0; width:0; }
+	.noti_chk input[type="checkbox"] + label { background:url("../img/chkbx_off.png") no-repeat; display:inline-block; height:100%; overflow:hidden; text-indent:-20000px; width:100%; }
+	.noti_chk input[type="checkbox"]:checked + label { background:url("../img/chkbx_on.png") no-repeat; }
+
+	.layer_cont table td input.ttl_input { background:#fff; border:1px solid #d9dce5; border-radius:6px; height:38px; padding:0 10px; width:100%; }
+	.layer_cont table td textarea { background:#fff; border:1px solid #d9dce5; border-radius:6px; height:313px; padding:10px; resize:none; width:100%; }
